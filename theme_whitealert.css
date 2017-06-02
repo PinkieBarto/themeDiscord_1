@@ -1,5 +1,5 @@
 .theme-light .layer:first-of-type::before{
-    content: "You need to have the dark mode enabled for this theme to work properly. To enable it, go in settings > appearance.";
+    content: "You need to have the dark mode enabled for this theme to work properly. To enable it, go in Settings > Appearance.";
     position: fixed;
     display: block;
     width: 400px;
