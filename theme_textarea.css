@@ -12,7 +12,7 @@
     margin: 0
 }
 .channel-textarea-inner textarea {
-    background: #000!important;
+    background: transparent!important;
     color: #fff!important;
     opacity: .8;
     padding: 26px 0;
