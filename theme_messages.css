@@ -54,3 +54,12 @@
     background-color: #111;
     opacity: 1
 }
+.chat .new-messages-bar {
+    border-radius: 0;
+    background-color: #000;
+    opacity: .85
+}
+.chat .new-messages-bar:hover {
+    background-color: #111;
+    opacity: 1;
+}
