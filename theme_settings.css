@@ -1,0 +1,105 @@
+.theme-dark .layer,
+.theme-dark .layers,
+.theme-dark .ui-standard-sidebar-view .sidebar-region,
+.theme-dark .ui-standard-sidebar-view .content-region,
+.theme-dark .ui-standard-sidebar-view,
+.theme-light .layer,
+.theme-light .layers,
+.theme-light .ui-standard-sidebar-view .sidebar-region,
+.theme-light .ui-standard-sidebar-view .content-region,
+.theme-light .ui-standard-sidebar-view {
+    background-color: #000
+}
+.ui-tab-bar.SIDE .ui-tab-bar-item {
+    border-radius: 0
+}
+.ui-tab-bar.SIDE .ui-tab-bar-item.selected,
+.ui-tab-bar.SIDE .ui-tab-bar-item:active {
+    background-color: #333
+}
+.premium-payment-modal {
+    background-color: transparent
+}
+.ui-switch-checkbox:checked+.ui-switch {
+    background-color: #222
+}
+.ui-switch-wrapper:not(.disabled):not(.clear):hover .ui-switch-checkbox:checked+.ui-switch {
+    background-color: #444
+}
+.ui-switch {
+    background-color: #111
+}
+.ui-switch-wrapper:not(.disabled):not(.clear):hover .ui-switch-checkbox+.ui-switch {
+    background-color: #444
+}
+.theme-dark .ui-standard-sidebar-view .btn-close,
+.theme-light .ui-standard-sidebar-view .btn-close {
+    border: 0
+}
+.ui-card-warning,
+.ui-card,
+.theme-dark .ui-card-primary,
+.theme-dark .user-settings-games .not-detected,
+.theme-dark .user-settings-games .now-playing,
+.theme-dark .ui-card-primary.editable,
+.theme-light .ui-card-primary,
+.theme-light .user-settings-games .not-detected,
+.theme-light .user-settings-games .now-playing,
+.theme-light .ui-card-primary.editable,
+.user-settings-keybinds .ghost-pill {
+    background-color: #090a0b;
+    border-radius: 0;
+    border: 0;
+    color: #fff
+}
+.theme-dark .ui-radio-list-item,
+.theme-light .ui-radio-list-item {
+    box-shadow: 0 0
+}
+.ui-radio-list-item {
+    padding: 10px 0
+}
+.theme-dark .ui-card-primary .ui-form-title.h5,
+.theme-light .ui-card-primary .ui-form-title.h5 {
+    color: #ccc
+}
+.theme-dark .ui-slider .slider-bar,
+.theme-light .ui-slider .slider-bar {
+    background-color: #111
+}
+.ui-slider .slider-bar-fill {
+    background-color: #222
+}
+.theme-dark .user-settings-games .now-playing .last-played,
+.theme-dark .user-settings-games .now-playing .overlay-status-text,
+.theme-dark .user-settings-games .now-playing .overlay-toggle-icon-off .fill,
+.theme-dark .user-settings-games .now-playing .overlay-toggle-icon-on .fill,
+.theme-light .user-settings-games .now-playing .last-played,
+.theme-light .user-settings-games .now-playing .overlay-status-text,
+.theme-light .user-settings-games .now-playing .overlay-toggle-icon-off .fill,
+.theme-light .user-settings-games .now-playing .overlay-toggle-icon-on .fill {
+    color: #c7ccd1;
+    fill: #c7ccd1
+}
+.ui-button.brand.filled {
+    background-color: #111;
+    border-radius: 0
+}
+.ui-button.brand.filled:hover {
+    background-color: #222
+}
+.content-region .CodeMirror,
+.content-region .cm-s-material .CodeMirror-gutters,
+#bd-customcss-detach-container .CodeMirror,
+#bd-customcss-detach-container .cm-s-material .CodeMirror-gutters,
+.content-region #bd-customcss-attach-controls,
+#bd-customcss-detach-container #bd-customcss-attach-controls {
+    background-color: #090a0b !important;
+    box-shadow: 0 0
+}
+.theme-dark .ui-permission-override-box.passthrough.selected,
+.ui-permission-override-box.deny.selected,
+.ui-permission-override-box.allow.selected {
+    background: #333;
+    border: 0;
+}

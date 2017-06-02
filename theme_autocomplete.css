@@ -1,0 +1,36 @@
+.channel-textarea-autocomplete-inner {
+    border: 0!important;
+    background-color: #0A0B0C!important;
+    border-radius: 0px;
+    border-bottom: 0px;
+    margin-bottom: 5px;
+    box-shadow: 0 0;
+}
+
+.channel-textarea-autocomplete-inner header {
+    background-color: #0A0B0C!important;
+    border-bottom: 0px;
+    margin-bottom: 5px;
+}
+
+.channel-textarea-autocomplete-inner ul {
+    background-color: #0A0B0C!important;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: 0px!important;
+}
+
+.channel-textarea-autocomplete-inner li.active {
+    background-color: #222!important;
+    border-radius: 0px;
+}
+
+.channel-textarea-autocomplete-inner li {
+    background-color: #0A0B0C!important;
+    border-radius: 0px;
+    margin-bottom: 2px;
+}
+
+.channel-textarea-autocomplete-inner::after {
+    border-bottom: 0px!important;
+}

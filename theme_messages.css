@@ -1,0 +1,16 @@
+.theme-dark .friends-table .messages .message-group-blocked.revealed, .theme-dark .messages-wrapper .messages .message-group-blocked.revealed,
+.message-group-blocked .message-group {
+  background: #111;
+}
+.chat .messages {
+    background: #000;
+}
+.theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn, .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn {
+  background: #111;
+}
+.theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn:hover, .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn:hover {
+  background: #222;
+}
+.theme-dark .friends-table .messages .divider.divider-red>span, .theme-dark .messages-wrapper .messages .divider.divider-red>span {
+  background: #000;
+}

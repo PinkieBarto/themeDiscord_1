@@ -1,0 +1,9 @@
+.theme-dark .message-group .embed {
+    border: 0;
+    border-radius: 0;
+    background-color: #111;
+}
+.embed-wrapper .embed-color-pill {
+    border-radius: 0;
+    background: #222 !important
+}
