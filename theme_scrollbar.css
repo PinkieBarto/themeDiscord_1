@@ -136,7 +136,7 @@
 .scroller.guild-channels::-webkit-scrollbar {
     background: rgba(225, 225, 225, 0.05)!important;
     width: 5px!important;
-    display: var(--channels-scrollbar)
+    display: initial
 }
 .scroller.guild-channels::-webkit-scrollbar-thumb:hover,
 .scroller.guild-channels::-webkit-scrollbar-thumb {
@@ -164,7 +164,7 @@
     border-radius: 0;
     background: rgba(255, 255, 255, .08);
     border-left: 6px solid #141414!important;
-    display: var(--settings-scrollbar)
+    display: initial
 }
 .ui-standard-sidebar-view .sidebar-region .scroller::-webkit-scrollbar-thumb:active {
     background: rgba(255, 255, 255, .12)
