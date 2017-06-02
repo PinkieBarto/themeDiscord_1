@@ -1,49 +1,40 @@
 .edit-message.edit-first-message .avatar-large {
-    visibility: hidden;
+    visibility: hidden
 }
-
 .message-group .edit-message .channel-textarea-inner,
 .message-group .edit-message .channel-textarea {
-    border-radius: 0px!important;
+    border-radius: 0!important;
     background: transparent!important;
     box-shadow: none!important;
     opacity: 1!important
 }
-
 .message-group .edit-message .channel-textarea textarea {
     opacity: 1!important
 }
-
 .message-group .edit-message .channel-textarea-inner {
-    padding: 0px!important;
+    padding: 0!important;
     padding-bottom: 5px!important
 }
-
 .message-group .edit-message textarea {
-    padding: 0px;
+    padding: 0
 }
 .comment .message+div .edit-message .avatar-large {
-    visibility: hidden;
+    visibility: hidden
 }
-
 .comment .message+div .edit-message .edit-container-inner h2 {
-    display: none;
+    display: none
 }
-
 .message-group .edit-message textarea {
-    margin-left: 2px;
+    margin-left: 2px
 }
-
 .message-group .edit-message .channel-textarea {
-    margin-top: 0;
+    margin-top: 0
 }
-
 .edit-operation {
-    padding: 0!important;
+    padding: 0!important
 }
-
 .theme-dark .ui-text-input .input,
 .theme-dark .ui-text-input .input.editable:focus,
-.theme-dark .ui-text-input .input.editable:hover{
-    color:rgba(255,255,255,.95);
+.theme-dark .ui-text-input .input.editable:hover {
+    color: rgba(255, 255, 255, .95)
 }
