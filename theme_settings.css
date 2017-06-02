@@ -94,12 +94,12 @@
 #bd-customcss-detach-container .cm-s-material .CodeMirror-gutters,
 .content-region #bd-customcss-attach-controls,
 #bd-customcss-detach-container #bd-customcss-attach-controls {
-    background-color: #090a0b !important;
+    background-color: #090a0b!important;
     box-shadow: 0 0
 }
 .theme-dark .ui-permission-override-box.passthrough.selected,
 .ui-permission-override-box.deny.selected,
 .ui-permission-override-box.allow.selected {
     background: #333;
-    border: 0;
+    border: 0
 }
