@@ -1,36 +1,34 @@
 .channel-textarea-upload+textarea {
-    margin-left: 5px;
+    margin-left: 5px
 }
 .channel-textarea-inner .channel-textarea-upload {
-    border-radius: 0px !important;
-    color: #fff !important;
-    border-right-color: rgba(255, 255, 255, 0) !important;
-    padding: 0 !important;
-    opacity: 0.3;
+    border-radius: 0!important;
+    color: #fff!important;
+    border-right-color: rgba(255, 255, 255, 0)!important;
+    padding: 0!important;
+    opacity: .3;
     height: 100%!important;
     width: 80px;
-    background-size: 21px !important;
+    background-size: 21px!important;
     display: inline-block!important;
     margin: 0;
-    background-position: 50%;
+    background-position: 50%
 }
 .channel-textarea-inner .channel-textarea-upload:active,
 .channel-textarea-inner .channel-textarea-upload:hover {
     opacity: 1;
     background-color: transparent!important;
-    background-position: 50%;
+    background-position: 50%
 }
 .upload-modal .inner .comment .channel-textarea .channel-textarea-inner {
-    border-radius: 0px!important;
+    border-radius: 0!important;
     background: transparent!important
 }
-
 .upload-modal .inner .comment .channel-textarea {
-    border-radius: 0px!important;
+    border-radius: 0!important;
     width: 448px;
     box-shadow: none
 }
-
 .upload-modal .inner .comment .channel-textarea textarea {
     padding: 2px 0;
     margin-left: 10px
@@ -41,33 +39,33 @@
 }
 .upload-modal .inner {
     border: 0;
-    border-radius: 0;
+    border-radius: 0
 }
 .upload-modal {
     border-radius: 0;
-    background-color: transparent;
+    background-color: transparent
 }
 .upload-modal .footer {
     border-radius: 0;
-    background-color: transparent;
+    background-color: transparent
 }
 .upload-modal .footer .button {
     background-color: transparent;
     border-radius: 0;
-    color: rgba(255,255,255,0.5);
+    color: rgba(255, 255, 255, 0.5)
 }
 .upload-modal .footer .button:hover {
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(255, 255, 255, 0.1);
     color: #fff;
-    text-decoration: none;
+    text-decoration: none
 }
 .upload-modal .footer .button-primary {
-    color: rgba(255,255,255,0.5);
+    color: rgba(255, 255, 255, 0.5)
 }
 .upload-modal .footer .button-primary:hover {
-    color: #fff;
+    color: #fff
 }
 .upload-modal .inner .file .icon.image {
     border-radius: 0;
-    border: 0;
+    border: 0
 }
