@@ -1,0 +1,114 @@
+.theme-light .layer:first-of-type::before{
+    content: "You need to have the dark mode enabled for this theme to work properly. To enable it, go in settings > appearance.";
+    position: fixed;
+    display: block;
+    width: 400px;
+    height: 30px;
+    top: 50%;
+    left: 50%;
+    background: #111;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #fff;
+    padding: 20px 20px;
+    border: 0;
+    z-index: 2;
+}
+
+.radio-theme input[type=radio]:checked~label {
+    border-color: transparent
+}
+
+.radio-theme.dark.compact label,
+.radio-theme.dark label {
+    width: 506px;
+    height: 50px;
+    background: #303030;
+    border: 0px!important;
+    border-radius: 3px;
+}
+
+.theme-light .ui-card.preview+.ui-form-item .ui-radiogroup .ui-card:last-of-type {
+    background:#F04747;
+    border-color:#F04747;
+    color:#fff;
+}
+
+.radio-theme.light {
+    display: none;
+}
+
+.theme-light .btn.btn-settings {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin-top: 65px;
+    width: 230px;
+    height: 40px;
+    visibility: visible!important;
+    background: #000!important;
+    border-radius: 0px;
+    box-shadow: 0 0;
+    animation: flash 1s ease infinite;
+}
+.theme-light .btn.btn-settings:hover {
+	background: #111 !important;
+}
+
+.theme-light .btn.btn-settings::before {
+    position: absolute;
+    z-index: 10000;
+    content: "GO TO SETTINGS";
+    display: block;
+    width: 230px;
+    height: 22px;
+    border-radius: 5px;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    visibility: visible!important;
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff
+}
+
+.theme-light .btn.btn-settings::after {
+    visibility: hidden
+}
+.app.flex-vertical.theme-light .layer:first-of-type *::before,
+.app.flex-vertical.theme-light .layer:first-of-type *::after,
+.app.flex-vertical.theme-light .layer:first-of-type * {
+    visibility: hidden
+}
+#app-mount>div:not([class*="platform"]) .theme-light .layer[layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .ui-tab-bar.SIDE .ui-tab-bar-item:nth-of-type(14),
+div.platform-osx .theme-light .layer[layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .ui-tab-bar.SIDE .ui-tab-bar-item:nth-of-type(15),
+div.platform-win .theme-light .layer[layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .ui-tab-bar.SIDE .ui-tab-bar-item:nth-of-type(16){
+    transition:200ms cubic-bezier(0,0,0,1);
+    box-shadow:0 0 0 4px #141414,0 0 0 6px #F04747;
+}
+#app-mount>div:not([class*="platform"]) .theme-light .layer[layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .ui-tab-bar.SIDE .ui-tab-bar-item.selected:nth-of-type(14),
+div.platform-osx .theme-light .layer[layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .ui-tab-bar.SIDE .ui-tab-bar-item.selected:nth-of-type(15),
+div.platform-win .theme-light .layer[layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .ui-tab-bar.SIDE .ui-tab-bar-item.selected:nth-of-type(16){
+    background:#F04747;
+    transition:300ms cubic-bezier(0,0,0,1)!important;
+    box-shadow:0 0 0 0px #141414,0 0 0 3px #F04747;
+}
+#app-mount>div:not([class*="platform"]) .theme-light .layer[layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .ui-tab-bar.SIDE .ui-tab-bar-item:nth-of-type(14):active,
+div.platform-osx .theme-light .layer[layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .ui-tab-bar.SIDE .ui-tab-bar-item:nth-of-type(15):active,
+div.platform-win .theme-light .layer[layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .ui-tab-bar.SIDE .ui-tab-bar-item:nth-of-type(16):active{
+    background:#F04747;
+}
+#app-mount>div:not([class*="platform"]) .theme-light .layer[layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .ui-tab-bar.SIDE .ui-tab-bar-item:nth-of-type(14):hover,
+div.platform-osx .theme-light .layer[layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .ui-tab-bar.SIDE .ui-tab-bar-item:nth-of-type(15):hover,
+div.platform-win .theme-light .layer[layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .ui-tab-bar.SIDE .ui-tab-bar-item:nth-of-type(16):hover{
+    box-shadow:0 0 0 0px #141414,0 0 0 3px #F04747;
+    transition:100ms cubic-bezier(0,0,0,1)!important;
+}
+
+.app.flex-vertical.theme-light .layer:first-of-type {
+    background-size: 30%;
+    background-color:#000!important;
+}
