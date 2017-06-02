@@ -1,0 +1,226 @@
+.scroller-wrap .scroller::-webkit-scrollbar {
+    width: 13px
+}
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+    border: 4px solid rgba(255, 255, 255, 0)!important;
+    background-color: rgba(0, 0, 0, 0)!important
+}
+.scroller-wrap .scroller::-webkit-scrollbar-thumb {
+    border: 4px solid rgba(255, 255, 255, 0)!important;
+    background-color: rgba(225, 225, 225, 0.1)!important;
+    display: initial
+}
+.scroller-wrap .scroller::-webkit-scrollbar-thumb:hover {
+    border: 4px solid rgba(255, 255, 255, 0)!important;
+    background-color: rgba(225, 225, 225, 0.15)!important
+}
+.scroller-wrap .scroller::-webkit-scrollbar-thumb:active {
+    border: 4px solid rgba(255, 255, 255, 0)!important;
+    background-color: rgba(225, 225, 225, 0.2)!important
+}
+.private-channels .scroller::-webkit-scrollbar {
+    background: rgba(225, 225, 225, 0.05);
+    width: 6px!important
+}
+.scroller.guild-channels::-webkit-scrollbar {
+    background: rgba(225, 225, 225, 0.05)!important;
+    width: 4px!important
+}
+.private-channels .scroller::-webkit-scrollbar-thumb:hover,
+.private-channels .scroller::-webkit-scrollbar-thumb {
+    border: none!important;
+    background-color: rgba(225, 225, 225, 0.2)!important;
+    display: initial;
+    border-radius: 0!important
+}
+.private-channels .scroller::-webkit-scrollbar-thumb:active {
+    border: none!important;
+    background-color: rgba(225, 225, 225, 0.4)!important;
+    display: initial;
+    border-radius: 0!important
+}
+.channel-members-wrap .scroller-wrap .channel-members::-webkit-scrollbar-thumb {
+    border: none!important;
+    background-color: rgba(225, 225, 225, 0.2)!important;
+    display: initial;
+    border-radius: 0!important
+}
+.channel-members-wrap .scroller-wrap .channel-members::-webkit-scrollbar-thumb:active {
+    border: none!important;
+    background-color: rgba(225, 225, 225, 0.4)!important;
+    display: initial;
+    border-radius: 0!important
+}
+#bda-qem-favourite-container .scroller-wrap .scroller::-webkit-scrollbar,
+#bda-qem-twitch-container .scroller-wrap .scroller::-webkit-scrollbar,
+.emoji-picker .scroller-wrap .scroller::-webkit-scrollbar {
+    background: #212121;
+    width: 6px!important;
+    display: none
+}
+#bda-qem-favourite-container .scroller-wrap .scroller::-webkit-scrollbar-thumb,
+#bda-qem-twitch-container .scroller-wrap .scroller::-webkit-scrollbar-thumb,
+.emoji-picker .scroller-wrap .scroller::-webkit-scrollbar-thumb {
+    border: none!important;
+    background-color: rgba(225, 225, 225, 0.2)!important;
+    display: initial;
+    border-radius: 0!important
+}
+#bda-qem-favourite-container .scroller-wrap .scroller::-webkit-scrollbar-thumb:active,
+#bda-qem-twitch-container .scroller-wrap .scroller::-webkit-scrollbar-thumb:active,
+.emoji-picker .scroller-wrap .scroller::-webkit-scrollbar-thumb:active {
+    border: none!important;
+    background-color: rgba(225, 225, 225, 0.4)!important;
+    display: initial;
+    border-radius: 0!important
+}
+.Select-menu::-webkit-scrollbar,
+#settings-roles .roles .scroller-wrap .scroller::-webkit-scrollbar {
+    background: #353535;
+    width: 4px!important
+}
+.Select-menu::-webkit-scrollbar-thumb,
+#settings-roles .roles .scroller-wrap .scroller::-webkit-scrollbar-thumb {
+    border: none!important;
+    background-color: rgba(225, 225, 225, 0.1)!important;
+    display: initial;
+    border-radius: 0!important
+}
+.Select-menu::-webkit-scrollbar-thumb:active,
+#settings-roles .roles .scroller-wrap .scroller::-webkit-scrollbar-thumb:active {
+    border: none!important;
+    background-color: rgba(225, 225, 225, 0.3)!important;
+    display: initial;
+    border-radius: 0!important
+}
+.private-channel-recipients-invite .body .scroller::-webkit-scrollbar {
+    background: rgba(225, 225, 225, 0.02);
+    width: 6px!important
+}
+.private-channel-recipients-invite .body .scroller::-webkit-scrollbar-thumb {
+    border: none!important;
+    background-color: rgba(225, 225, 225, 0.2)!important;
+    display: initial;
+    border-radius: 0!important
+}
+.private-channel-recipients-invite .body .scroller::-webkit-scrollbar-thumb:active {
+    border: none!important;
+    background-color: rgba(225, 225, 225, 0.4)!important;
+    display: initial;
+    border-radius: 0!important
+}
+.search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar {
+    background: rgba(225, 225, 225, 0.04);
+    width: 8px!important
+}
+.theme-dark .search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar-thumb {
+    background: rgba(225, 225, 225, 0.2)!important;
+    display: initial;
+    border-radius: 0!important;
+    border: 0!important;
+    background-clip: none
+}
+.theme-dark .search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar-thumb:active {
+    border: none!important;
+    background: rgba(225, 225, 225, 0.4)!important;
+    display: initial;
+    border-radius: 0!important
+}
+.search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+    display: none
+}
+.quickswitcher.dark .scroller-wrap::before {
+    background-image: linear-gradient(0deg, transparent, #212121 100%, transparent);
+    display: none
+}
+.scroller.guild-channels::-webkit-scrollbar {
+    background: rgba(225, 225, 225, 0.05)!important;
+    width: 5px!important;
+    display: var(--channels-scrollbar)
+}
+.scroller.guild-channels::-webkit-scrollbar-thumb:hover,
+.scroller.guild-channels::-webkit-scrollbar-thumb {
+    border: none!important;
+    background-color: rgba(225, 225, 225, 0.1)!important;
+    display: initial;
+    border-radius: 0!important
+}
+.scroller.guild-channels::-webkit-scrollbar-thumb:active {
+    border: none!important;
+    background-color: rgba(225, 225, 225, 0.2)!important;
+    display: initial;
+    border-radius: 0!important
+}
+.emoji-picker .scroller:hover::-webkit-scrollbar,
+.emoji-picker .scroller::-webkit-scrollbar {
+    display: none
+}
+.ui-standard-sidebar-view .sidebar-region .scroller::-webkit-scrollbar {
+    width: 10px
+}
+.ui-standard-sidebar-view .sidebar-region .scroller::-webkit-scrollbar-thumb {
+    width: 4px;
+    border: none;
+    border-radius: 0;
+    background: rgba(255, 255, 255, .08);
+    border-left: 6px solid #141414!important;
+    display: var(--settings-scrollbar)
+}
+.ui-standard-sidebar-view .sidebar-region .scroller::-webkit-scrollbar-thumb:active {
+    background: rgba(255, 255, 255, .12)
+}
+.message-reactions-reactors .scroller::-webkit-scrollbar {
+    width: 6px;
+    background: transparent!important
+}
+.message-reactions-reactors .scroller::-webkit-scrollbar-track {
+    width: 6px;
+    background: transparent!important
+}
+.message-reactions-reactors .scroller::-webkit-scrollbar-thumb {
+    width: 6px;
+    border: none;
+    background: rgba(255, 255, 255, .05)!important;
+    border-radius: 0
+}
+.message-reactions-reactors .scroller::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, .1)!important
+}
+.message-reactions-reactors .scroller::-webkit-scrollbar-thumb:active {
+    background: rgba(255, 255, 255, .15)!important
+}
+.scroller.guild-channels::-webkit-scrollbar {
+    background: rgba(225, 225, 225, 0.05)!important;
+    width: 6px!important;
+    display:block;
+}
+.scroller.guild-channels::-webkit-scrollbar-thumb:hover,
+.scroller.guild-channels::-webkit-scrollbar-thumb {
+    border: none !important;
+    background-color: rgba(225, 225, 225, 0.1) !important;
+    display: initial;
+    border-radius: 0!important;
+}
+.scroller.guild-channels::-webkit-scrollbar-thumb:active {
+    border: none !important;
+    background-color: rgba(225, 225, 225, 0.2) !important;
+    display: initial;
+    border-radius: 0!important
+}
+.channel-members::-webkit-scrollbar {
+    border: none!important
+    background: rgba(225, 225, 225, 0.05);
+    width: 8px!important
+}
+.channel-members-wrap .scroller-wrap .channel-members::-webkit-scrollbar-thumb {
+    border: none !important;
+    background-color: rgba(225, 225, 225, 0.2) !important;
+    display: initial;
+    border-radius: 0!important
+}
+.channel-members-wrap .scroller-wrap .channel-members::-webkit-scrollbar-thumb:active {
+    border: none !important;
+    background-color: rgba(225, 225, 225, 0.4) !important;
+    display: initial;
+    border-radius: 0!important
+}
