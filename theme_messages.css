@@ -28,3 +28,29 @@
     background: #111;
     border-radius: 0
 }
+.chat .has-more button {
+    background: rgba(0, 0, 0, .1)!important;
+    color: rgba(255, 255, 255, .5)!important;
+    border-radius: 100px
+}
+.jump-to-present-bar button:first-of-type {
+    display: none
+}
+.jump-to-present-bar {
+    width: 130px!important;
+    right: 10px!important;
+    left: auto!important;
+    border-radius: 0!important
+}
+.chat .jump-to-present-bar button:last-child {
+    width: 130px!important;
+    text-align: center
+}
+.theme-dark .chat .jump-to-present-bar {
+    background-color: #000;
+    opacity: .5
+}
+.theme-dark .chat .jump-to-present-bar:hover {
+    background-color: #111;
+    opacity: 1
+}
