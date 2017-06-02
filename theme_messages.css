@@ -11,6 +11,6 @@
 .theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn:hover, .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn:hover {
   background: #222;
 }
-.theme-dark .friends-table .messages .divider.divider-red>span, .theme-dark .messages-wrapper .messages .divider.divider-red>span {
+.theme-dark .friends-table .messages .divider.divider-red>span, .theme-dark .messages-wrapper .messages .divider.divider-red>span, .theme-dark .friends-table .messages .divider:before, .theme-dark .friends-table .messages .divider span, .theme-dark .messages-wrapper .messages .divider:before, .theme-dark .messages-wrapper .messages .divider span {
   background: #000;
 }
