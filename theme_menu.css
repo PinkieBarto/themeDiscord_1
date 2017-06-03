@@ -1,0 +1,41 @@
+.popout-menu {
+    background: #111;
+    border-radius: 0
+}
+.popout-menu .popout-menu-separator {
+    border: 0
+}
+.popout-menu .popout-menu-item:hover,
+.popout-menu .popout-menu-item:hover.invite {
+    background: #222;
+    color: #fff
+}
+.search-popout {
+    background: #111;
+    box-shadow: 0 0!important;
+    border-radius: 0!important
+}
+.search-popout .option::after {
+    background: #111
+}
+.search-popout .option {
+    border-radius: 0
+}
+.search-popout .option.selected {
+    background: #222
+}
+.search-popout .option:active {
+    background: #333
+}
+.search-popout .option.selected::after {
+    background: transparent!important
+}
+.search-popout .search-option .filter {
+    color: #fff
+}
+.search-popout .results-group::before {
+    display: none!important
+}
+.search-popout .search-query {
+    border: none
+}

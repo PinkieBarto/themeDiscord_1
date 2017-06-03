@@ -1,0 +1,26 @@
+.guild-header header {
+    box-shadow: 0 0;
+    background: #0A0B0C
+}
+.guild-header header:hover,
+.guild-header.popout-open header {
+    background: #222
+}
+.chat>.title-wrap.title-wrap-dark {
+    border: 0;
+    box-shadow: 0 0;
+    background: #0A0B0C;
+}
+.search .search-bar {
+    background: transparent !important;
+    border-radius: 0;
+}
+#bd-customcss-detach-container,
+.guilds-wrapper .guilds {
+    background: #0A0B0C;
+}
+.theme-dark .search-answer, .theme-dark .search-filter {
+    background-color: #222;
+    border-radius: 0;
+}
+
