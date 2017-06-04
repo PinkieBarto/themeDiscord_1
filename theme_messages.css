@@ -63,3 +63,10 @@
     background-color: #111;
     opacity: 1;
 }
+.theme-dark .message-group.is-local-bot-message {
+    background: transparent;
+    box-shadow: 0 0;
+}
+.message-group {
+    border: 0;
+}
