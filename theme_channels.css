@@ -16,4 +16,14 @@
 background: #000
 }
 
+.guild-channels .channel-text:hover a {
+background: #111
+}
+
+.guild-channels .channel-text.selected a {
+background: #222
+}
+
+
+
 
